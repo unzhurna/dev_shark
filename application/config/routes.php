@@ -50,26 +50,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 //Front website
-$route['about'] = 'home/about';
-$route['our_client/(:num)'] = 'home/our_client/1';
-$route['our_parner/(:num)'] = 'home/our_parner/1';
-$route['our_project/(:num)'] = 'home/our_project/1';
-$route['news/(:num)'] = 'home/news/$1';
-$route['news_category/(:any)/(:num)'] = 'home/news_category/$1/$2';
-$route['read/(:any)'] = 'home/read/$1';
-$route['our_product/(:num)'] = 'home/our_product/$1';
-$route['category_product/(:any)/(:num)'] = 'home/category_product/$1/$2';
-$route['detail_product/(:any)'] = 'home/detail_product/$1';
-$route['support/(:any)'] = 'home/support/$1';
-$route['sales_team'] = 'home/sales_team';
-$route['cs_form'] = 'home/cs_form';
-$route['shark_career'] = 'home/shark_career';
-$route['apply_career/(:any)'] = 'home/apply_career/$1';
-$route['apply_career/(:any)'] = 'home/apply_career/$1';
-$route['contact_us'] = 'home/contact_us';
+$route['about']                             = 'home/about';
+$route['our_client/(:num)']                 = 'home/our_client/$1';
+$route['our_parner/(:num)']                 = 'home/our_parner/$1';
+$route['our_project/(:num)']                = 'home/our_project/$1';
+$route['news/(:num)']                       = 'home/news/$1';
+$route['news_category/(:any)/(:num)']       = 'home/news_category/$1/$2';
+$route['read/(:any)']                       = 'home/read/$1';
+$route['our_product/(:num)']                = 'home/our_product/$1';
+$route['category_product/(:any)/(:num)']    = 'home/category_product/$1/$2';
+$route['detail_product/(:any)']             = 'home/detail_product/$1';
+$route['support/(:any)']                    = 'home/support/$1';
+$route['sales_team']                        = 'home/sales_team';
+$route['cs_form']                           = 'home/cs_form';
+$route['shark_career']                      = 'home/shark_career';
+$route['apply_career/(:any)']               = 'home/apply_career/$1';
+$route['apply_career/(:any)']               = 'home/apply_career/$1';
+$route['contact_us']                        = 'home/contact_us';
 
-$route['secret'] = 'auth';
-$route['dashboard'] = 'dashboard';
+$route['secret']                            = 'auth';
+$route['dashboard']                         = 'dashboard';
 
 $route['login'] = 'auth/login';
 $route['logout'] = 'auth/logout';

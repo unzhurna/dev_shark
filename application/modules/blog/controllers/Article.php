@@ -74,7 +74,7 @@ class Article extends MX_Controller{
                 'post_slug' => '',
                 'post_content' => '',
                 'category_id' => '',
-                'post_status' => '',
+                'post_status' => 'publish',
                 'post_image' => '',
             );
         }
